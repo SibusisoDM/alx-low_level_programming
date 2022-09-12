@@ -18,7 +18,7 @@ for (ones = '0'; ones <= '9'; ones++)
 {
 for (t = tens; t <= '9'; t++) /*print second of pair*/
 {
-for (0 = ones + 1; o <= '9'; o++)
+for (0 = ones ; o <= '9'; o++)
 {
 putchar(tens);
 putchar(ones);
