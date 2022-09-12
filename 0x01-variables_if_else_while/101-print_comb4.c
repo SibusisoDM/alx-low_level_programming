@@ -17,7 +17,7 @@ for (ten = (hundred + 1); ten <= '9'; ten++) /*tens=100s+1*/
 {
 for (one = (ten + 1); one <= '9'; one++) /*ones*/
 {
-putchar(hundred0;
+putchar(hundred);
 putchar(ten0;
 putchar(one);
 if (hundred != '7' || ten != '8' || one != '9')
