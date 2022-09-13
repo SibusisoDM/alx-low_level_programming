@@ -1,17 +1,14 @@
-#include <holberton.h>
+#include <unistd.h>
 
 /**
- * _isupper - - check for upper case character
- * @c: character to be checked
- * Returned: 1 if true , 0 if false
+ * _putchar - writed the character c to stdout
+ * @c: character to be print
+ *
+ * Return: On success 1
+ * On error, -1 is returned. and error is set appropriately
  */
 
-int main(void)
-
-int _isupper(int c)
+int _putchar(char)
 {
-if (c >= 'A' && c <= 'Z')
-return (1);
-
-return (0);
+return (write(1, &c, 1));
 }
