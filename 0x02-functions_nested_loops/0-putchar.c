@@ -1,14 +1,37 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * _putchar - writed the character c to stdout
- * @c: character to be print
  *
- * Return: On success 1
- * On error, -1 is returned. and error is set appropriately
- */
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
-int _putchar(char)
+int main(void)
+
 {
-return (write(1, &c, 1));
+
+		char *sh = "Holberton";
+
+
+
+			while (*sh)
+
+					{
+
+								_putchar(*sh);
+
+										sh++;
+
+											}
+
+				_putchar('\n');
+
+
+
+					return (0);
+
 }
