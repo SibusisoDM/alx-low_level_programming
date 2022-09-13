@@ -6,6 +6,8 @@
  * Returned: 1 if true , 0 if false
  */
 
+int main(void)
+
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
