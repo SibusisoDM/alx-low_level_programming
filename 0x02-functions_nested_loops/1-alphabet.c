@@ -13,5 +13,5 @@ for (c = 'a'; c <= 'z'; c++)
 {
 _ptchar(c);
 }
-_putchar('\n');
+_ptchar('\n');
 }
