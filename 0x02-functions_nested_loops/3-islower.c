@@ -11,7 +11,9 @@ int alpha;
 
 int count;
 
-for (alpha = 97; alpha <= 122; alpha ++)
+count = 0;
+
+for (alpha = 97; alpha <= 122; alpha++)
 {
 if (c == alpha)
 {
