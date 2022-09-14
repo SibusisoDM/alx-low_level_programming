@@ -20,6 +20,6 @@ return (-last_digit);
 else
 {
 _putchar('0' + last_digit);
-return (last_digut);
+return (last_digit);
 }
 }
