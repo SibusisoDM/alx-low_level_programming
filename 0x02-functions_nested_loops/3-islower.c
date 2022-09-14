@@ -15,7 +15,7 @@ for (alpha = 97; alpha <= 122; alpha ++)
 {
 if (c == alpha)
 {
-count ++;
+count++;
 break;
 }
 }
