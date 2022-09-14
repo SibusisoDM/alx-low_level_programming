@@ -5,7 +5,7 @@
  *
  * Return: void
  *
- * /
+ */
  void jack_bauer(void)
  {
 
