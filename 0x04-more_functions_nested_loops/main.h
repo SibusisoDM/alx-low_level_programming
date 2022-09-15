@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+#include "holberton.h"
 
 _putchar(char);
 _putchar;
