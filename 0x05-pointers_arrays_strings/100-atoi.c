@@ -13,7 +13,7 @@ int sign = 1;
 unsigned int numn = 0;
 
 do {
-if (*a == '-')
+if (*s == '-')
 sign *= -1;
 else if (*s >= '0' && * <= '9')
 num = num * 10 + (*s - '0');
