@@ -39,5 +39,5 @@ return (1 + (_strlen(s)));
 int is_palindrome(char *s)
 {
 int len = _strlen(s);
-return (compare(s, (s +len - 1)));
+return (compare(s, (s + len - 1)));
 }
