@@ -7,7 +7,7 @@
  * Return: if no of arg = 1, 1, otherwise 0
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 int cents, coins = 0;
 if (argc != 2)
@@ -41,6 +41,6 @@ continue;
 }
 cents--;
 }
-printf("%\n", coins);
+printf("%d\n", coins);
 return (0);
 }
