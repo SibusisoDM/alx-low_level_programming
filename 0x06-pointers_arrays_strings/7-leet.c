@@ -8,15 +8,15 @@
 
 char *leet(char *str)
 {
-int index1 = 0, index2;
+int index_1 = 0, index_2;
 char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
-while (str[++index1])
+while (str[++index_1])
 {
-for (index2 = 0; index2 <= 7; index2++)
+for (index_2 = 0; index_2 <= 7; index_2++)
 {
-if (str[index1] == leet[index2] ||
-str[index] - 32 == leet[index2])
-str[index1] = index2 + '0';
+if (str[index_1] == leet[index_2] ||
+str[index_1] - 32 == leet[index_2])
+str[index_1] = index_2 + '0';
 }
 }
 return (str);
