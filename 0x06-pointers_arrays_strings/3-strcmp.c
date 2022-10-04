@@ -19,6 +19,11 @@ if (s1[i] == '\0' && s2[i] == '\0')
 break;
 else if (s1[i] == '\0')
 {
+diff = s2[i];
+break;
+}
+else if (s2[i] == '\0')
+{
 diff = s1[i];
 break;
 }
