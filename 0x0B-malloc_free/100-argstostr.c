@@ -22,7 +22,7 @@ for (j = 0; av[i][j] != '\0'; j++)
 c++;
 c++;
 }
-aout = malloc((c + 1) *sizeof(char));
+aout = malloc((c + 1) * sizeof(char));
 if (aout == NULL)
 {
 free(aout);
@@ -41,5 +41,5 @@ if (ia < c - 1)
 aout[ia] = av[i][j];
 }
 aout[ia] = '\0';
-return(aout);
+return (aout);
 }
