@@ -14,7 +14,7 @@ char *strout;
 unsigned int i, j, k, limit;
 if (s1 == NULL)
 s1 = "";
-if (s2 = NULL)
+if (s2 == NULL)
 s2 = "";
 for (i = 0; s1[i] != '\0'; i++);
 for (j = 0; s2[j] != '\0'; j++);
